@@ -1,0 +1,10 @@
+.footer {
+  grid-area: f;
+  background-color: rgba(0, 128, 0, 0.911);
+  height: 100px;
+  text-align: center;
+  font-family: cursive;
+  color: wheat;
+  border-radius: 20px;
+  margin-bottom: 2px;
+}

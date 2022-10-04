@@ -1,0 +1,30 @@
+.mainTitle {
+  font-size: 40px;
+  font-family: cursive;
+  color: beige;
+  text-align: center;
+}
+
+.content img {
+  width: 400px;
+}
+
+.generalArea {
+  font-size: 20px;
+  font-family: cursive;
+  color: beige;
+  text-align: center;
+}
+
+.text {
+  font-size: 15px;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+}
+
+.audioName {
+  font-size: 15px;
+
+  color: beige;
+}

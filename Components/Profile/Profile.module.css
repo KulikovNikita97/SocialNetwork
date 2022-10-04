@@ -1,0 +1,15 @@
+.content {
+  background-color: blueviolet;
+}
+
+.content img {
+  width: 100%;
+}
+
+.item {
+  color: greenyellow;
+}
+
+.space {
+  margin-top: 60px;
+}

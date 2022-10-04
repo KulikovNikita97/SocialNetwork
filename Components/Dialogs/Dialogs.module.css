@@ -1,0 +1,46 @@
+.content {
+  grid-area: c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img {
+  width: 70%;
+}
+
+.mainTitle {
+  font-size: 40px;
+  font-family: cursive;
+  color: beige;
+  text-align: center;
+}
+
+.dialog {
+  font-size: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
+
+.dialogs {
+  display: grid;
+   grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .active {
+  color: gold;
+}
+
+.messages {
+  padding: 10px;
+  color: aliceblue;
+}
+
+.message {
+  padding: 10px;
+}

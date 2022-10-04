@@ -1,0 +1,17 @@
+.app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  width: 1000px;
+  grid-template-areas: "h h h" "n c c" "f f f";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 5px;
+}
+
+.app-wrapper-content {
+  background-color: #1f91a5af;
+  border: 4px #1f7e8f solid;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 15px;
+}

@@ -1,0 +1,30 @@
+.userPhoto {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #1f7e8f;
+    border-radius: 20px;
+
+}
+
+.selectedPage {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pages:hover {
+    cursor: pointer;
+}
+
+.users {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.username {
+    padding-left: 15px;
+}
+
+.button {
+    padding-left: 15px;
+    padding-top: 5px;
+}

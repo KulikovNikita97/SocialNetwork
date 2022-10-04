@@ -1,0 +1,57 @@
+.paginator {
+   margin-left: 30px;
+   padding-bottom: 50px;
+   padding-top: 30px;
+   display: flex;
+}
+
+.pageNumber {
+    padding: 2px;
+    border: 1px solid #1f7e8f;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.pageNumber:hover {
+    cursor: pointer;
+    color: wheat;
+    background-color: #1f7e8fc9;
+    transition: all .09s ease-out;
+}
+
+.pageNumber:active {
+    color: red;
+}
+
+.pageNumber.selectedPage {
+    font-weight: bold;
+    cursor: pointer;
+    border-color: black;
+}
+
+.userPhoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.pages {
+    cursor: pointer;
+}
+
+.btn_pr {
+    padding-right: 10px;
+}
+
+.btn_nx {
+    padding-left: 10px;
+}
+
+.btn_pr_nx-active:hover {
+    cursor: pointer;
+    border: 1;
+}
+
+button {
+    cursor: pointer;
+}

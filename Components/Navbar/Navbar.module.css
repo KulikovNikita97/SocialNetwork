@@ -1,0 +1,41 @@
+.nav {
+  grid-area: n;
+  background-color: #1426a7a4;
+  padding-left: 10px;
+  padding-top: 15px;
+  border: 4px #3a1ed8 solid;
+  border-radius: 20px;
+}
+
+.item {
+  color: white;
+}
+
+.item:hover::before {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button {
+  width: 100%;
+  background-color: wheat;
+} 
+
+a {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: unset;
+  color: rgb(233, 192, 118);
+}
+
+a:active {
+  color: red;
+}
+a:target {
+  color: green;
+}

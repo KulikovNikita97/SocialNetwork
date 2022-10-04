@@ -1,0 +1,55 @@
+.header {
+  grid-area: h;
+  background-color: rgba(1, 104, 1, 0.911);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-top: 2px;
+}
+
+.header img {
+  width: 60px;
+}
+
+.mt {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.main_title {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: wheat;
+  font-style: italic;
+}
+
+.subscribe_corner {
+  font-family: monospace;
+  font-size: 13px;
+  color: wheat;
+}
+
+.item {
+  width: 70px;
+}
+
+.loginBlock {
+  font-family: sans-serif;
+  color: wheat;
+  margin-left: auto;
+}
+
+.log {
+  margin-right: 10px;
+  text-align: right;
+}
+
+@media (max-width: 500px){
+  .header {
+    max-width: 100%;
+  }
+
+  .main_title {
+    font-size: 15px;
+  }
+}
